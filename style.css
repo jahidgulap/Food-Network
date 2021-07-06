@@ -4,11 +4,15 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    text-align: left;
+}
 section{
     display: flex;
 }
-.special{
+.t_color{
     color: orangered;
+    font-weight: 1000;
 }
 .half-width{
     width: 50%;
@@ -50,16 +54,32 @@ section{
 .headline{
     text-align: center;
     padding: 10px;
-    margin-left: 250px;
 }
-
-
-
-
+.recipie-item{
+    display: flex;
+}
+.item{
+    width: 50%;
+    padding: 1%;
+    width: 100%;
+    box-shadow: 0 20px 50px 0 rgb(150, 144, 144);
+    margin: 80px;
+    border-radius: 15px;
+    
+}
+.item img{
+    width: 100%;
+   
+}
 .footer{
     background-color: rgb(1, 1, 10);
     text-align: center;
     font-size: larger;
     padding: 20px;
     color: antiquewhite;
+    margin-top: 15px;
+}
+.ftext_color{
+    color: rgb(102, 98, 98);
+    font-weight: 1000;
 }
