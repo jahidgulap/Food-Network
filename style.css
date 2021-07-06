@@ -84,12 +84,15 @@ section{
     border-radius: 10px;
     margin-bottom: 25px;
     margin-top: 25px;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
 }
 .feedback_section{
     width: 300px;
     border-radius: 10px;
     height: 50px;
     padding: 5px;
+   
 }
 .rating{
     padding: 15px;
@@ -101,6 +104,17 @@ section{
     font-size: 20px;
     color: white;
     background-image: linear-gradient(salmon, tomato);
+}
+
+.contact_section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+.communication{
+    color: rgb(204, 57, 81);
+    text-align: center;
+    padding-left: 150px;
 }
 
 .footer{
