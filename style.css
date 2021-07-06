@@ -79,6 +79,30 @@ section{
 .likes{
     padding-left: 200px;
 }
+.review_section{
+    box-shadow: 0px 0px 5px rgb(204, 202, 202);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.feedback_section{
+    width: 300px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 5px;
+}
+.rating{
+    padding: 15px;
+}
+.submit_button{
+    width: 100px;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(salmon, tomato);
+}
+
 .footer{
     background-color: rgb(1, 1, 10);
     text-align: center;
