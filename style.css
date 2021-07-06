@@ -61,7 +61,6 @@ section{
 .item{
     width: 50%;
     padding: 1%;
-    width: 100%;
     box-shadow: 0 20px 50px 0 rgb(150, 144, 144);
     margin: 80px;
     border-radius: 15px;
@@ -69,7 +68,16 @@ section{
 }
 .item img{
     width: 100%;
-   
+}
+.followeers{
+    display: flex;
+    box-shadow: 1px 1px 15px rgb(204, 202, 202);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: -25px;
+}
+.likes{
+    padding-left: 200px;
 }
 .footer{
     background-color: rgb(1, 1, 10);
